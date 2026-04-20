@@ -25,7 +25,7 @@ The simulation models neutron thermalization with the following parameters:
 * `monte_carlo_neutron_slowing.c`: Main simulation engine in C.
 * `plot.py`: Python script for visualization and statistical analysis.
 * `data/`: CSV files containing simulation results for Hydrogen, Carbon, and High Absorption cases.
-* `results/`: Generated plots showing flux comparisons and hardening factors.
+* `result/`: Generated plots showing flux comparisons and hardening factors.
 * `docs/`: Original reference papers by Coveyou et al. and Wigner-Wilkins.
 
 ## 5. Usage
@@ -49,10 +49,6 @@ $$T_m/T_e = 1 + 1.11 \times A \times K$$
 | 1 | Hydrogen | 1 | 0.18 | $\approx 1.094$ |
 | 2 | Carbon | 12 | 0.10 | $\approx 1.406$ |
 | 3 | High Absorption | 1 | 0.36 | $\approx 1.219$ |
-
-### Analysis Visualization
-![Flux Analysis Results](./results/comprehensive_flux_analysis.png)
-![Flux Analysis Comparsions](./results/individual_flux_comparisons.png)
 
 
 ## 7. References
