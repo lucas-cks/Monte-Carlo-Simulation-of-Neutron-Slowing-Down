@@ -118,5 +118,7 @@ This project is licensed under the MIT License – see the [LICENSE](LICENSE) fi
 ## 10. Contact
 
 For questions or suggestions, please open an issue on this repository or contact the author directly.
+**Ching Kai Sing, Lucas** Department of Physics, The Chinese University of Hong Kong  
+*Project Link:* [https://github.com/lucas-cks/Monte-Carlo-Simulation-of-Neutron-Slowing-Down](https://www.google.com/search?q=[https://github.com/lucas-cks/Daya-Bayan-Nuclear-Dispersion](https://github.com/lucas-cks/Monte-Carlo-Simulation-of-Neutron-Slowing-Down))
 
 [Back to Top](#readme-top)
