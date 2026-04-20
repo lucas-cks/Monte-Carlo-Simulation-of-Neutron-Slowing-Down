@@ -49,7 +49,7 @@ The simulation models neutron thermalization with the following parameters:
 [Back to Top](#readme-top)
 
 ## 5. Code Structure
-```c
+```text
 main()
 ├──init_simulation()        
 ├──run_simulation()        
@@ -101,6 +101,7 @@ $$T_m/T_e = 1 + 1.11 \times A \times K$$
 | 1 | Hydrogen | 1 | 0.18 | $\approx 1.094$ |
 | 2 | Carbon | 12 | 0.10 | $\approx 1.406$ |
 | 3 | High Absorption | 1 | 0.36 | $\approx 1.219$ |
+
 See result/ for corresponding flux distribution plots.
 
 [Back to Top](#readme-top)
