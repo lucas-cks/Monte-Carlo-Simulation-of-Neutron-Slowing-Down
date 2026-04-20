@@ -42,6 +42,7 @@ The simulation models neutron thermalization with the following parameters:
 
 ## 4. Repository Structure
 * `monte_carlo_neutron_slowing.c`: Main simulation engine in C.
+* `monte_carlo_neutron_slowing.exe`: Main simulation engine in exe.
 * `plot.py`: Python script for visualization and statistical analysis.
 * `data/`: CSV files containing simulation results for Hydrogen, Carbon, and High Absorption cases.
 * `result/`: Generated plots showing flux comparisons and hardening factors.
