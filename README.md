@@ -28,7 +28,19 @@ The simulation models neutron thermalization with the following parameters:
 * `result/`: Generated plots showing flux comparisons and hardening factors.
 * `docs/`: Original reference papers by Coveyou et al., Wigner-Wilkins, and presentation slides.
 
-## 5. Usage
+## 5. Code Structure
+main()
+├──init_simulation()        
+├──run_simulation()        
+│  └──run_history()     
+|    ├──calculate_effective_sigma_s()
+│    ├──sigma_a(v) = σa0 / v
+│    ├──sample_target_velocity()
+│    ├──elastic_collision()
+│    └──tally speed into bins
+└──calculate_flux()        
+
+## 6. Usage
 ### Compilation
 ```bash
 gcc -o monte_carlo_neutron_slowing monte_carlo_neutron_slowing.c -lm -O3
@@ -40,7 +52,7 @@ gcc -o monte_carlo_neutron_slowing monte_carlo_neutron_slowing.c -lm -O3
 python plot.py
 ```
 
-## 6. Key Results & Validation
+## 7. Key Results & Validation
 The simulation reproduces the theoretical relationship between moderator temperature ($T_m$) and effective neutron temperature ($T_e$):
 $$T_m/T_e = 1 + 1.11 \times A \times K$$
 
@@ -51,6 +63,6 @@ $$T_m/T_e = 1 + 1.11 \times A \times K$$
 | 3 | High Absorption | 1 | 0.36 | $\approx 1.219$ |
 
 
-## 7. References
+## 8. References
 1. Coveyou, R. R., Bate, R. R., & Osborn, R. K. (1956). "Effect of Moderator Temperature upon Neutron Flux in Infinite, Capturing Medium". *Journal of Nuclear Energy*. 
 2. Wigner, E. P., & Wilkins, J. E. (1944). "Effect of the Temperature of the Moderator on the Velocity Distribution of Neutrons". *AECD-2275*.
