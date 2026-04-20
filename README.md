@@ -47,8 +47,8 @@ The simulation models neutron thermalization with the following parameters:
 * `data/`: CSV files containing simulation results for Hydrogen, Carbon, and High Absorption cases.
 * `result/`: Generated plots showing flux comparisons and hardening factors.
 * `docs/`: Original reference papers by Coveyou et al., Wigner-Wilkins, and presentation slides.
-* `README.md/`
-* `LICENSE/`: MIT License
+* `README.md`
+* `LICENSE`: MIT License
 
 [Back to Top](#readme-top)
 
