@@ -27,6 +27,10 @@ The simulation models neutron thermalization with the following parameters:
 * `data/`: CSV files containing simulation results for Hydrogen, Carbon, and High Absorption cases.
 * `result/`: Generated plots showing flux comparisons and hardening factors.
 * `docs/`: Original reference papers by Coveyou et al., Wigner-Wilkins, and presentation slides.
+* 
+* ## Documentation
+* [Project Presentation (PDF)](./docs/MonteCarlo_Presentation.pdf) - **View directly in browser**
+* [Source Presentation (PPTX)](./docs/MonteCarlo_Presentation.pptx) - Download for offline viewing
 
 ## 5. Usage
 ### Compilation
