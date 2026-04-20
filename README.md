@@ -13,6 +13,8 @@ This project implements a high-fidelity Monte Carlo simulation of neutron modera
 ![NumPy](https://img.shields.io/badge/Library-NumPy-013243?logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Library-Matplotlib-ffffff?logo=matplotlib&logoColor=black)
 
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 ## 2. Physics Background
 The simulation models neutron thermalization with the following parameters:
 * **Target Motion:** Moderator atoms follow a Maxwell-Boltzmann distribution.
