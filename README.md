@@ -15,6 +15,7 @@
 
 ## 1. Overview
 This project implements a high-fidelity Monte Carlo simulation of neutron moderation in an infinite, capturing medium. It is based on the classic 1956 research by **Coveyou, Bate, and Osborn** at the Oak Ridge National Laboratory[cite: 1]. The simulation explores the effects of moderator temperature on neutron flux spectra, validating results against **Wigner-Wilkins (1944)** theory[cite: 2]. For a high-level overview of the physics and methodology, please see my presentation slides.
+
 [Back to Top](#readme-top)
 
 
@@ -35,6 +36,7 @@ The simulation models neutron thermalization with the following parameters:
 * **Scale:** 1,000,000 neutron histories per case to ensure low statistical noise.
 * **Sampling:** Implements rejection sampling for target velocities as described in the 1956 paper.
 * **Normalization:** Tallies are correctly normalized to flux for comparison with analytical models.
+
 [Back to Top](#readme-top)
 
 ## 4. Repository Structure
@@ -43,6 +45,7 @@ The simulation models neutron thermalization with the following parameters:
 * `data/`: CSV files containing simulation results for Hydrogen, Carbon, and High Absorption cases.
 * `result/`: Generated plots showing flux comparisons and hardening factors.
 * `docs/`: Original reference papers by Coveyou et al., Wigner-Wilkins, and presentation slides.
+
 [Back to Top](#readme-top)
 
 ## 5. Code Structure
@@ -99,6 +102,7 @@ $$T_m/T_e = 1 + 1.11 \times A \times K$$
 | 2 | Carbon | 12 | 0.10 | $\approx 1.406$ |
 | 3 | High Absorption | 1 | 0.36 | $\approx 1.219$ |
 See result/ for corresponding flux distribution plots.
+
 [Back to Top](#readme-top)
 
 ## 8. License
@@ -112,4 +116,5 @@ This project is licensed under the MIT License – see the [LICENSE](LICENSE) fi
 ## 10. Contact
 
 For questions or suggestions, please open an issue on this repository or contact the author directly.
+
 [Back to Top](#readme-top)
