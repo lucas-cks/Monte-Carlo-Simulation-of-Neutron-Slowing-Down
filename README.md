@@ -51,8 +51,8 @@ $$T_m/T_e = 1 + 1.11 \times A \times K$$
 | 3 | High Absorption | 1 | 0.36 | $\approx 1.219$ |
 
 ### Analysis Visualization
-![Flux Analysis Results](./results/comprehensive_flux_analysis.jpg)
-![Flux Analysis Results](individual_flux_comparisons.jpg)
+![Flux Analysis Results](./results/comprehensive_flux_analysis.png)
+![Flux Analysis Comparsions](./results/individual_flux_comparisons.png)
 
 
 ## 7. References
