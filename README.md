@@ -96,4 +96,3 @@ This project is licensed under the MIT License – see the [LICENSE](LICENSE) fi
 ## 10. Contact
 
 For questions or suggestions, please open an issue on this repository or contact the author directly.
-```
