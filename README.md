@@ -6,7 +6,7 @@
 **Based on Coveyou et al. (1956) "Effect of Moderator Temperature upon Neutron Flux in Infinite, Capturing Medium
 " in Oak Ridge Laboratory**
 
-[![Daya-Bay Langs](https://github-readme-stats.vercel.app/api/pin/?username=lucas-cks&repo=Neutron-Slowing-Monte-Carlo&theme=vision-friendly-dark)](https://github.com/lucas-cks/Neutron-Slowing-Monte-Carlo)
+[![Used Language](https://github-readme-stats.vercel.app/api/top-langs/?username=lucas-cks&repo=Daya-Bay-Analysis&layout=compact&theme=vision-friendly-dark&hide_border=true)](https://github.com/lucas-cks/Neutron-Slowing-Monte-Carlo)
 
 ![C](https://img.shields.io/badge/Language-C-blue?logo=c)
 ![Python](https://img.shields.io/badge/Language-Python-yellow?logo=python)
