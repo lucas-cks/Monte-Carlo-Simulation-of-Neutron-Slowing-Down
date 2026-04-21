@@ -118,8 +118,8 @@ See result/ for corresponding flux distribution plots.
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
 ## 9. References
-1. Coveyou, R. R., Bate, R. R., & Osborn, R. K. (1956). "Effect of Moderator Temperature upon Neutron Flux in Infinite, Capturing Medium". *Journal of Nuclear Energy*. 
-2. Wigner, E. P., & Wilkins, J. E. (1944). "Effect of the Temperature of the Moderator on the Velocity Distribution of Neutrons". *AECD-2275*.
+1. Coveyou, R. R., Bate, R. R., & Osborn, R. K. (1956). "Effect of Moderator Temperature upon Neutron Flux in Infinite, Capturing Medium". *Journal of Nuclear Energy*. (PDF available in `docs/`)
+2. Wigner, E. P., & Wilkins, J. E. (1944). "Effect of the Temperature of the Moderator on the Velocity Distribution of Neutrons". *AECD-2275*. (PDF available in `docs/`)
 
 ## 10. Contact
 
