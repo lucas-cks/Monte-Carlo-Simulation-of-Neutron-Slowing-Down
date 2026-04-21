@@ -73,7 +73,7 @@ main()
 ## 6. Usage
 ### Installation
 ```bash
-git clone [https://github.com/your_username/neutron-slowing-mc.git](https://github.com/your_username/neutron-slowing-mc.git)
+git clone [https://github.com/lucas-cks/Neutron-Slowing-Monte-Carlo.git](https://github.com/lucas-cks/Neutron-Slowing-Monte-Carlo.git)
 ```
 
 ### Compilation
