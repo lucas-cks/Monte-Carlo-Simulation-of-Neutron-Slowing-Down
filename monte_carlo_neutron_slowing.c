@@ -497,7 +497,7 @@ void test_carbon_energy_loss() {
 }
 
 int main() {
-    printf("=== Monte Carlo Neutron Transport Simulation ===\n");
+    printf("Monte Carlo Neutron Transport Simulation\n");
     
     // Hydrogen moderator (A=1), K=0.18
     printf("Case 1: Hydrogen moderator (A=1.0, K=0.18)\n");
@@ -524,7 +524,7 @@ int main() {
     print_results(&sim_highK);
     save_results(&sim_highK, "neutron_flux_highK.csv");
     
-    printf("\n=== All simulations completed ===\n");
+    printf("\nAll simulations completed\n");
     printf("Output files created:\n");
     printf("  - neutron_flux_hydrogen.csv\n");
     printf("  - neutron_flux_carbon.csv\n");
