@@ -71,7 +71,7 @@ void init_simulation(Simulation* sim, double A, double K, double T) {
     sim->T = T;
     
     // Calculate thermal speed (most probable speed for Maxwell-Boltzmann)
-    sim->v_T = sqrt(3.0 * K_BOLTZMANN * T / M_NEUTRON);
+    sim->v_T = sqrt(2.0 * K_BOLTZMANN * T / M_NEUTRON);
     
     // Cross-section parameters
     sim->sigma_s = 1.0;
