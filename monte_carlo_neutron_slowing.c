@@ -215,7 +215,7 @@ double sample_target_velocity(Simulation* sim, double v) {
         // Calculate relative speed
         v_rel = sqrt(v*v + V*V - 2.0*v*V*mu);
         
-        // PAPER'S REJECTION: accept with probability |v-V|/(v+V)
+        // Rejection: accept with probability |v-V|/(v+V)
         if (random_uniform(sim) < v_rel / (v + V)) {
             accepted = 1;
         }
