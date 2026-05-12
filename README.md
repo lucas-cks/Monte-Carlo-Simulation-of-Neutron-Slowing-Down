@@ -46,7 +46,6 @@ The simulation models neutron thermalization with the following parameters:
 ```
 .
 ├── monte_carlo_neutron_slowing.c     # Main simulation engine in C
-├── monte_carlo_neutron_slowing.exe   # Main simulation engine in exe
 ├── plot.py                           # Python script for visualization and statistical analysis
 ├── data/                             # CSV files containing simulation results
 ├── result/                           # Generated plots (PNG files)
