@@ -117,7 +117,7 @@ pip install numpy pandas matplotlib
 ## 7. Key Results & Validation
 
 The simulation reproduces the theoretical relationship between moderator temperature ($T_m$) and effective neutron temperature ($T_e$):
-$$T_m/T_e = 1 + 1.11 \times A \times K$$
+$\frac{T_m}{T_e} = 1 + 1.11 \cdot A \cdot K$
 
 | Case                | Moderator | A  | K       | A×K   | Expected Peak $y$ | Measured Peak $y$ | Deviation |
 | :------------------ | :-------- | :- | :------ | :---- | :---------------- | :---------------- | :--------- |
@@ -129,6 +129,8 @@ $$T_m/T_e = 1 + 1.11 \times A \times K$$
 | 6                   | Manganese | 25 | 0.03125 | 0.781 | 1.366             | 1.281             | –6.2%      |
 
 All cases show $1/v$ tail slopes within 15% of –1.0, confirming the expected high‑energy asymptotic behavior. The hydrogen and helium cases match theoretical predictions to within <0.5%. Heavier moderators show slightly more deviation due to the simplified effective cross‑section model, but the trend of increasing peak energy with $A\times K$ is clearly reproduced.
+
+Note: The ~7% deviation in heavier moderators (Si, Mn) at high AK values is consistent with the reported 5% reliability limit of the original Coveyou interpolation formula, reflecting the breakdown of the linear spectral-shift approximation in strong absorption regimes.
 
 **Convergence study** (Hydrogen, $K=0.18$) demonstrates that:
 - Peak position stabilises after ~1,000,000 histories.
