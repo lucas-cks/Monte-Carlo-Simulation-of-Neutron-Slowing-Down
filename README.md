@@ -47,7 +47,7 @@ The simulation models neutron thermalization with the following parameters:
 * `plot.py`: Python script for visualization and statistical analysis.
 * `data/`: CSV files containing simulation results for Hydrogen, Carbon, and High Absorption cases.
 * `result/`: Generated plots showing flux comparisons and hardening factors.
-* `docs/`: Original reference papers by Coveyou et al., Wigner-Wilkins, and presentation slides.
+* `docs/`: Original reference papers by Coveyou et al. and Wigner-Wilkins.
 * `README.md`
 * `LICENSE`: MIT License
 
