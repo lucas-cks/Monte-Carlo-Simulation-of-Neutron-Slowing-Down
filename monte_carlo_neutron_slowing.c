@@ -210,6 +210,7 @@ double erf_approximation(double x) {
     int sign = (x < 0) ? -1 : 1;
     x = fabs(x);
 
+    // Rational approximation formula
     double t = 1.0 / (1.0 + p * x);
     double y = 1.0 - (((((a5 * t + a4) * t) + a3) * t + a2) * t + a1) * t * exp(-x * x);
 
