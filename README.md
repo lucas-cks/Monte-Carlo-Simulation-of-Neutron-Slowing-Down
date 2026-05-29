@@ -151,8 +151,6 @@ This project is licensed under the MIT License – see the [LICENSE](LICENSE) fi
 
 For questions or suggestions, please open an issue on this repository or contact the author directly.
 
-**Ching Kai Sing, Lucas**  
-Department of Physics, The Chinese University of Hong Kong  
 *Project Link:* [https://github.com/lucas-cks/Neutron-Slowing-Monte-Carlo](https://github.com/lucas-cks/Neutron-Slowing-Monte-Carlo)
 
 [Back to Top](#readme-top)
