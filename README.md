@@ -1,8 +1,6 @@
 # Monte Carlo Simulation of Neutron Slowing Down
 ## Effect of Moderator Temperature upon Neutron Flux in Infinite, Capturing Medium
 
-**Author:** Ching Kai Sing, Lucas
-
 **Based on Coveyou et al. (1956) "Effect of Moderator Temperature upon Neutron Flux in Infinite, Capturing Medium" in Oak Ridge Laboratory**
 
 ![C](https://img.shields.io/badge/Language-C-blue?logo=c)
